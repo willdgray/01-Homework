@@ -1,4 +1,3 @@
-
 body {
     background-color: #d9dcd6;
 }
@@ -19,6 +18,7 @@ body {
     color: #d9dcd6;
 }
 
+/* I changed element from a div to a nav; lines 23, 31, and 35, so that my CSS will match my semantic HTML*/
 .header nav {
     padding-top: 15px;
     margin-right: 20px;
@@ -80,22 +80,26 @@ p {
     background-color: #2589bd;
 }
 
+/*I merged several independent benefits classes, into one all-benefits class, that possessed the same CSS attributes to condense my CSS*/
 .all-benefits {
     margin-bottom: 32px;
     color: #ffffff;
 }
 
+/*I merged several independent benefits h3 classes, into one all-benefits h3 class, that possessed the same CSS attributes to condense my CSS*/
 .all-benefits h3 {
     margin-bottom: 10px;
     text-align: center;
 }
 
+/*I merged several independent benefits img classes, into one all-benefits img class, that possessed the same CSS attributes to condense my CSS*/
 .all-benefits img {
     display: block;
     margin: 10px auto;
     max-width: 150px;
 }
 
+/*I merged several independent contents classes, into one all-contents class, that possessed the same CSS attributes to condense my CSS*/
 .all-contents {
     margin-bottom: 20px;
     padding: 50px;
@@ -105,10 +109,12 @@ p {
     color: #ffffff;
 }
 
+/*I merged several independent contents img classes, into one all-contents img class, that possessed the same CSS attributes to condense my CSS*/
 .all-contents img {
     max-height: 200px;
 }
 
+/*I merged several independent contents h2 classes, into one all-contents h2 class, that possessed the same CSS attributes to condense my CSS*/
 .all-contents h2 {
     margin-bottom: 20px;
     font-size: 36px;
@@ -121,6 +127,6 @@ footer {
     text-align: center;
 }
 
-footer h2 {
+footer h4 {
     font-size: 20px;
 }
